@@ -1,0 +1,22 @@
+---
+title: "about"
+author: "Auke Beeksma"
+date: "20 februari 2019"
+output: html_document
+---
+
+
+
+## About this app
+
+This app is firstly about the finishing of the Coursera Course Developing Data products. 
+The second focus lies on to develop a basic tooling to generate pseudo-random numbers.
+
+First you type, ore slide, the desired number a random numbers (between 0 and 1337).
+With the next two sliders you can adjust the minimum and maximum number of x and y axis.
+This indicates the boundries within the numbers selected at first are sampled.
+
+If the conditions are satisfactory then you can click on "press please" button.
+You can find all code in on Github.
+
+About random numbers
