@@ -9,4 +9,4 @@ You can find them at https://github.com/Samazzo/Peer-graded-Assignment-Course-Pr
 
 The app developed for the first part of the assignment is avalilable at: https://samazzo.shinyapps.io/Projectrandomnumbers/
 
-The presentation is available at: ......
+The presentation is available at: http://rpubs.com/Samazzo/469528
