@@ -1,0 +1,68 @@
+Presentation Coursera, A random number generator
+========================================================
+author: Auke Beeksma
+date: february 2019
+autosize: true
+
+Assignement
+========================================================
+
+The assignement is to develop a app which is working on a host. 
+In this case there is chosen for shinyapps as host.
+You can find it over here: https://samazzo.shinyapps.io/Projectrandomnumbers
+The criteria which it should be met are the following:
+
+- Was there enough documentation on the shiny site for a user to get started using the application?
+-  the application run as described in the documentation?
+- Was there some form of widget input (slider, textbox, radio buttons, checkbox, ...) in either ui.R or a custom web page?
+- Did server.R perform some calculations on the input in server.R?
+- Was the server calculation displayed in the html page?
+- Was the app substantively different than the very simple applications built in the class? N
+- Here's your opportunity to give the app +1 for being well done, or neat, or even just a solid effort.
+
+
+The app
+========================================================
+With the random number generator it is easy to get the number of random numers that you would like.
+In this app it is possible to pick from 0 to 1337 random numbers.
+That is the first step in the app.
+The second step is to pick an minimum and maximal value for the x axis. 
+So you can select between a range from -1337 to 1337 to sample from.
+Simarly this works for the y-axis.
+With these two axis you can selct the area to sample your random numbers. 
+
+Librarys and methods used
+========================================================
+
+Ofcourse we used the library shiny to conduct this app.
+Secondary there where markdown and knitr.
+
+I was facing some difficulties to insert a second button in the mainpanel (next to "random numbers").
+Initially I had planned to put the aboutfile( with information about the used methods). This aboutfile is in RMD but unfortantly I couldn"t find a method to blend it in well. Locally is worked perfect :-)
+
+
+```{r}
+
+library(markdown)
+library(shiny)
+library(knitr)
+```
+
+
+Where to find all important info
+========================================================
+
+- The about file
+Can be found on https://github.com/Samazzo/Peer-graded-Assignment-Course-Project-Shiny-Application-and-Reproducible-Pitch 
+(Although i did rather had it also under a button in the app :'())
+
+- The readme file
+https://github.com/Samazzo/Peer-graded-Assignment-Course-Project-Shiny-Application-and-Reproducible-Pitch
+
+- The shiny app, consisting in two parts:
+* ui (userinterface)
+* server (server)
+
+https://github.com/Samazzo/Peer-graded-Assignment-Course-Project-Shiny-Application-and-Reproducible-Pitch
+
+Thanks for your time!
